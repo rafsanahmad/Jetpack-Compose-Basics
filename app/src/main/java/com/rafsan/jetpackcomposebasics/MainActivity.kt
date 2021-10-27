@@ -18,6 +18,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.rafsan.jetpackcomposebasics.ui.theme.JetpackComposeBasicsTheme
+import com.rafsan.jetpackcomposebasics.uiComponents.LayoutActivity
+import com.rafsan.jetpackcomposebasics.uiComponents.LazyListActivity
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

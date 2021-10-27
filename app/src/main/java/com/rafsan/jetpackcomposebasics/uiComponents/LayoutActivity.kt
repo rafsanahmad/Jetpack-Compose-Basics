@@ -1,4 +1,4 @@
-package com.rafsan.jetpackcomposebasics
+package com.rafsan.jetpackcomposebasics.uiComponents
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

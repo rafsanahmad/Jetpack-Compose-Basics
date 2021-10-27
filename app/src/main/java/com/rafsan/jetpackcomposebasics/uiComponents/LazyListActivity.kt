@@ -1,4 +1,4 @@
-package com.rafsan.jetpackcomposebasics
+package com.rafsan.jetpackcomposebasics.uiComponents
 
 import android.content.res.Configuration
 import android.os.Bundle
@@ -26,6 +26,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.rafsan.jetpackcomposebasics.R
 import com.rafsan.jetpackcomposebasics.ui.theme.JetpackComposeBasicsTheme
 
 class LazyListActivity : ComponentActivity() {
@@ -95,9 +96,9 @@ private fun CardContent(name: String) {
             Icon(
                 imageVector = if (expanded) Icons.Filled.ExpandLess else Icons.Filled.ExpandMore,
                 contentDescription = if (expanded) {
-                    stringResource(R.string.show_less)
+                    stringResource(id = R.string.show_less)
                 } else {
-                    stringResource(R.string.show_more)
+                    stringResource(id = R.string.show_more)
                 }
 
             )
