@@ -19,8 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LayoutActivity" />
-        <activity android:name=".LazyListActivity" />
+        <activity android:name=".uiComponents.LazyListActivity" />
+        <activity android:name=".uiComponents.LayoutActivity" />
     </application>
 
 </manifest>
